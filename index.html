@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Izu's page</title>
+   <link rel="stylesheet" href="Css/header.css">
+    <link rel="stylesheet" href="Css/general.css">
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet" />
+    <script  defer src="javascipt/script.js"></script>
+  </head>
+  <body>
+    <!-- header-section -->
+    <header class="header">
+      <div>
+        <a href="#" class="logo">PUZC<span class="logo-letter" >O</span>NNECT</a>
+      </div>
+      <nav>
+        <!-- sidebar nav, active when menu icon is clicked -->
+        <ul class="sidebar">
+          <li onclick=hidesidebar()><a href="#" >
+          <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+          <li class="nav-link" ><a href="#home">Home</a></li>
+          <li class="nav-link" ><a href="#about-me">About</a></li>
+          <li class="nav-link" ><a href="#Projects">Projects</a></li>
+          <li class="nav-link" ><a href="#contact">Contact</a></li>
+        </ul>
+        <!-- header-nav  -->
+        <ul>
+          <li class="hide-onmobile" ><a href="#home" class="active" >Home</a></li>
+          <li class="hide-onmobile" ><a href="#about-me">About</a></li>
+          <li class="hide-onmobile" ><a href="#Projects">Projects</a></li>
+          <li class="hide-onmobile" ><a href="#contact">Contact</a></li>
+          <li class="menu-button" onclick=showsidebar()><a href="#" >
+            <svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="white" ><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        </ul>
+      </nav>
+   </header>
+   <!-- home page section -->
+    <section  id="home" class="home" >
+      <div class="home-content">
+        <div>
+          <!-- <h2>Hi, I am </h2> -->
+          <h1>Izuchukwu Promise.</h1>
+          <h3>Frontend Developer</h3>
+          <p>
+            I have the priviledge of shaping the digital world that people
+            interact with every day. I turn ideas into interactive realities,
+            ensuring that websites not only look stunning but also function
+            seamlessly. 
+          </p>
+          <div class="btn-box">
+            <a href="#contact">Hire Me</a>
+            <a href="#contact">Let's Talk</a>
+          </div>
+          <div class="home-sci">
+            <a href="https://www.linkedin.com/in/izuchukwu-promise-08811328b" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://twitter.com/@promeaz1" target="_blank" ><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+          </div>
+        </div>
+        <div>
+          <img class="page-img" src="Assets-media/Images/izu-promise-img.jpg" alt="">
+        </div> 
+      </div>
+     
+    </section>
+    <!-- About section -->
+    <section id="about-me" class="pages">
+      <h1>ABOUT ME</h1>
+      <hr class="ab-hr">
+      <h2 class="page-h2">Who am I? </h2>
+      <p>Hi, I am Izuchukwu Promise, a Frontend developer.
+        I'm passionate about building beautiful and functional websites and
+        web applications that help businesses and individuals connect more effectively with their target audience. 
+        I have a strong understanding of the latest web development technologies and trends, and I'm always eager to learn new things. 
+        I'm also a skilled communicator and collaborator.
+        <br>
+        <br>
+        <br>
+        In my spare time, I enjoy spending time with my family and friends, playing video games, and reading. 
+        
+        If you're looking for a web developer who is passionate about their work and who can deliver high-quality results, I'd love to hear from you. 
+       <br>
+       <br>
+        Feel free to <a href="mailto:izuchukwupromise01@gmail.com">email</a> me if you have any questions or just want to chat!
+      </p>
+
+      <div class="skills-div">
+        <h2 > My skills</h2>
+        <div class="button-div">
+          <div>
+            <button>
+              HTML5
+            </button>
+          </div> 
+          <div>
+            <button>
+              CSS3
+            </button>
+          </div>
+          <div>
+            <button>
+              Javascript
+            </button> 
+          </div>
+          <div>
+            <button>
+              Github
+            </button>
+          </div>
+        </div>
+      </div>
+       
+    </section>
+      
+    <!-- Project section -->
+    <section id="Projects" class="pages">
+      <h1>PROJECTS</h1>
+      <hr >
+      <div  class="project-cards">
+        <img class="netflix-cl-img" src="Assets-media/Images/Netflix-page-clone.JPG" alt="netflix page clone image"/>
+        <p>
+           A simple Sign in Page clone of the popular streaming service, Netflix. <br>
+           HTML | CSS | JavaScript 
+        </p>
+        <button><a href="https://devpromize.github.io/netflixSignin-Clone/" target="_blank">View</a></button>
+      </div>
+      <div class="loader">
+      </div>
+
+      <h2 id="upcome" class="page-h2">More Projects coming Shortly </h2>
+        
+    </section>
+    <!-- contact section -->
+    <section id="contact" class="pages">
+      <h1>Contact Me</h1>
+      <hr>
+      <p class="contact-p">Feel Free to reach out if you have any questions, if you'd like to discus potential opportunities or even if you just want to be friends,<br>
+        I would love to chat with you&#33; </p>
+
+     <article class="contact-form-div">
+      <form action=" https://formsubmit.co/df34674161e824a0d083ebc748051c6c" method="POST"  class="form">
+        <input type="text" name="Name" id="name" placeholder="Full Name" required >
+        
+        <input type="email" name="Email" id="email" placeholder="Email" required >
+      
+        <textarea name="Message" id="message" placeholder="Message" cols="30" rows="10"  required></textarea>
+        <input type="submit" value="Submit" class="submit">
+      </form>
+     </article> 
+    </section>
+  </body>
+</html>
